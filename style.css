@@ -1,0 +1,112 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    width: 100%;
+    height: 300vh;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+.wrapper{
+    width: 1100px;
+    position: relative;
+    margin:auto;
+}
+.logo a{
+    font-size: 70px;
+    float: left;
+    left: 5px;
+    font-weight: bold;
+    font-family: impact;
+    color: rgb(151, 13, 13);
+}
+span{
+    color: rgb(47, 24, 70);
+}
+.menu{
+    float: right;
+
+}
+nav{width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 100px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    font-family: 'Bebas Neue Regular';
+    font-size: 25px;
+}
+nav ul li a{
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+
+}
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.kolom{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+}
+p{font-size: 15px;
+    font-family: 'comic sans ms';
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+.tbl-biru{
+    background-color: rgb(196, 25, 25);
+    color: black;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.tbl-biru:hover{
+    background-color: palevioletred;
+    text-decoration: none;
+
+}
+img{
+    width: 500px;
+    height: 500px;
+
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Bebas Neue Regular';
+}
+
