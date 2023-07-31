@@ -4,12 +4,14 @@
     padding: 0px;
 }
 :root{
-    --bg-utama:#322653;
-    --bg-sec: #8062D6;
+    --bg-utama:#416ce2;
+    --bg-sec: #f1c7ab;
     
 }
 body{
     margin: 0px;
+    height: 500vh;
+    background-color: var(--bg-sec);
     width: 100%;
     padding: 0px;
        
@@ -22,14 +24,16 @@ body{
 .logo a{
     font-size: 70px;
     float: left;
-    left: 1px;
+    padding-left: 20px;
     position: sticky;
     font-weight: bold;
     font-family: impact;
-    color: rgb(204, 79, 79);    
+    color: rgb(170, 9, 9);   
+    text-shadow: 3px 2px 1px black; 
 }
 span{
-    color: rgb(16, 16, 17);
+    color: rgb(252, 252, 253);
+    
 }
 .menu{
     float: right;
@@ -38,7 +42,7 @@ span{
 nav{width: 100%;
     margin: auto;
     display: flex;
-    background-color: white;
+    background-color: rgba(105, 240, 233, 0.932);
     line-height: 80px;
     position: sticky;
     position: -webkit-sticky;
@@ -55,6 +59,7 @@ nav ul li{
     float: left;
     font-family: 'Bebas Neue Regular';
     font-size: 25px;
+
 }
 nav ul li a{
     color: black;
@@ -79,15 +84,16 @@ section {
 .kolom-bakso{
     margin-bottom: 50px;
     margin-left: 20vh;
-    margin-top: 50px;
-    padding: 20px;
+    margin-top: 80px;
+    padding: 50px;
+    
 }
 .kolom .deskripsi{
     font-size: 20px;
     font-weight: bold;
     font-family: 'comic sans ms';
 }
-p{font-size: 15px;
+p{font-size: 20px;
     font-family: 'comic sans ms';
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
@@ -102,7 +108,7 @@ p{font-size: 15px;
     font-weight: bold;
 }
 .tbl-biru:hover{
-    background-color: palevioletred;
+    background-color: rgb(7, 7, 7);
     text-decoration: underline;
     color: white;
 
@@ -110,7 +116,7 @@ p{font-size: 15px;
 img{
     width: 600px;
     height: 500px;
-    top: 20px;
+    margin-top: 50px;
 
 }
 h2{
@@ -120,5 +126,52 @@ h2{
 }
 
 .kolom-type{
-    margin-left: 20px;
+    width: 100%;
+    padding: 50px;
+    margin-top: 50px;
+    
+    
 }
+.deskripsi1{
+    width: 100%;
+    text-align: center;
+}
+section #type{
+    width: 100%;
+    position: relative;
+    margin:auto;
+
+}
+.h22{
+    text-align: center;
+    margin-top: 30px;
+}
+.baksomnu{
+    width: 100%;
+    margin: auto;
+    
+}   
+.gambarbkso{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.gambarbkso img{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border-radius: 10px;}
+    .tbl-order{
+     background-color: black;  
+     border-radius: 10px;
+     padding: 10px;
+     color: white;
+     font-family: Arial;
+     font-weight: bold;
+    }
+    .tbl-order:hover{
+        background-color: rgb(236, 52, 52);
+        color: black;
+        cursor: pointer;
+    }
